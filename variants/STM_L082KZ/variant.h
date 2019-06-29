@@ -125,8 +125,7 @@ extern const PinName digitalPin[];
 //#define PWM_MAX_DUTY_CYCLE      255
 
 // On-board LED pin number
-//TODO: Not yet correct
-#define LED_BUILTIN             13
+#define LED_BUILTIN             PB7
 #define LED_GREEN               LED_BUILTIN
 
 // On-board user button
